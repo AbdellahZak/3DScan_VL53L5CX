@@ -65,3 +65,6 @@ python "3D viewer script.py"
 ## Incoming Features
 -adding filters and better vizualasation.
 -Adding an IMU 
+
+## Inspiration
+-https://www.youtube.com/watch?v=s32OUzhjf4U&t=174s
