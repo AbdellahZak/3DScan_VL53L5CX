@@ -1,4 +1,4 @@
-# ESP32 + VL53 3D ToF Viewer
+# ESP32 + VL53 3D ToF Viewer (...Progress)
 
 Live 3D point cloud visualization for an 8x8 Time-of-Flight (ToF) sensor streamed from an ESP32 over serial.
 
