@@ -6,6 +6,7 @@ Live 3D point cloud visualization for an 8x8 Time-of-Flight (ToF) sensor streame
 
 ![Image](https://github.com/user-attachments/assets/8f82452c-a3d0-47f3-bcaa-1f163241a22d)![Live 3D viewer](docs/images/viewer.png)
 ![Image](https://github.com/user-attachments/assets/7d3c798c-a67d-4922-8234-53d8318355f9)
+https://youtube.com/shorts/tPLloLnX2ko
 
 
 ## Hardware
