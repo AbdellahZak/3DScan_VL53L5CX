@@ -4,8 +4,8 @@ Live 3D point cloud visualization for an 8x8 Time-of-Flight (ToF) sensor streame
 
 ## Project Snapshot
 
-![Sensor setup](docs/images/setup.jpg)
-![Live 3D viewer](docs/images/viewer.png)
+![Image](https://github.com/user-attachments/assets/8f82452c-a3d0-47f3-bcaa-1f163241a22d)![Live 3D viewer](docs/images/viewer.png)
+![Image](https://github.com/user-attachments/assets/7d3c798c-a67d-4922-8234-53d8318355f9)
 
 
 ## Hardware
@@ -21,12 +21,12 @@ Live 3D point cloud visualization for an 8x8 Time-of-Flight (ToF) sensor streame
 
 | ESP32 Pin | VL53 Pin | Notes |
 | --- | --- | --- |
-| 3V3 | VIN / VCC | Power (check module voltage) |
+| 3V3 | AVDD | Power |
 | GND | GND | Common ground |
 | GPIO21 (SDA) | SDA | I2C data |
 | GPIO22 (SCL) | SCL | I2C clock |
-| GPIOx (optional) | XSHUT | Optional reset/shutdown |
-| GPIOy (optional) | INT | Optional interrupt |
+| GPIO19 | LPN | I2c Enable pin |
+| 3V3 | PWREN | power enable pulled high |
 
 ## Data Format
 
@@ -61,4 +61,6 @@ python "3D viewer script.py"
 - The viewer uses a 65° field of view and 8x8 grid by default.
 - Adjust `MAX_DISTANCE` to match your sensor range for better visuals.
 
-
+## Incoming Features
+-adding filters and better vizualasation.
+-Adding an IMU 
