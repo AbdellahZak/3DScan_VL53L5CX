@@ -63,7 +63,7 @@ python "3D viewer script.py"
 - Adjust `MAX_DISTANCE` to match your sensor range for better visuals.
 
 ## Incoming Features
--adding filters and better vizualasation.
+-adding filters and better visualization.
 -Adding an IMU 
 
 ## Inspiration
